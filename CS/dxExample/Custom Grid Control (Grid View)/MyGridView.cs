@@ -15,8 +15,7 @@ namespace MyXtraGrid {
                 return "MyGridView";
             }
         }
-
-        protected override CriteriaOperator ConvertGridFilterToDataFilter(DevExpress.Data.Filtering.CriteriaOperator criteria) {
+        protected override CriteriaOperator ConvertGridFilterToDataFilter(CriteriaOperator criteria, bool forceFindFilter = false) {
             if (!string.IsNullOrEmpty(FindFilterText)) {
                 FindSearchParserResults lastParserResults = new FindSearchParser().Parse(FindFilterText, GetFindToColumnsCollection());
                 CriteriaOperator findCriteria = CustomCriteriaHelper.Create(lastParserResults, FilterCondition.Contains, IsServerMode);
