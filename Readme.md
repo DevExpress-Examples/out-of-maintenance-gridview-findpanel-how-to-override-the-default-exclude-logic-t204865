@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MyGridControl.cs](./CS/dxExample/Custom Grid Control (Grid View)/MyGridControl.cs) (VB: [MyGridControl.vb](./VB/dxExample/Custom Grid Control (Grid View)/MyGridControl.vb))
+* [MyGridRegistration.cs](./CS/dxExample/Custom Grid Control (Grid View)/MyGridRegistration.cs) (VB: [MyGridRegistration.vb](./VB/dxExample/Custom Grid Control (Grid View)/MyGridRegistration.vb))
+* [MyGridView.cs](./CS/dxExample/Custom Grid Control (Grid View)/MyGridView.cs) (VB: [MyGridView.vb](./VB/dxExample/Custom Grid Control (Grid View)/MyGridView.vb))
+* **[CustomCriteriaHelper.cs](./CS/dxExample/FilterHelper/CustomCriteriaHelper.cs) (VB: [CustomCriteriaHelper.vb](./VB/dxExample/FilterHelper/CustomCriteriaHelper.vb))**
+* [Form1.cs](./CS/dxExample/Form1.cs) (VB: [Form1.vb](./VB/dxExample/Form1.vb))
+* [Program.cs](./CS/dxExample/Program.cs) (VB: [Program.vb](./VB/dxExample/Program.vb))
+* [TestData.cs](./CS/dxExample/TestData.cs) (VB: [TestData.vb](./VB/dxExample/TestData.vb))
+<!-- default file list end -->
 # GridView - FindPanel - How to override the default exclude logic
 
 
