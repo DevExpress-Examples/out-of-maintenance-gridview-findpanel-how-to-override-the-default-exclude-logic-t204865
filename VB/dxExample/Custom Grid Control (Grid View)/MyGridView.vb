@@ -17,7 +17,7 @@ Namespace MyXtraGrid
                 Return "MyGridView"
             End Get
         End Property
-        Protected Overrides Function ConvertGridFilterToDataFilter(ByVal criteria As CriteriaOperator, Optional ByVal forceFindFilter As Boolean = False) As CriteriaOperator
+           Protected Overrides Function ConvertGridFilterToDataFilter(criteria As CriteriaOperator, forceFindFilter As Boolean) As CriteriaOperator
             If Not String.IsNullOrEmpty(FindFilterText) Then
                 Dim lastParserResults As FindSearchParserResults = (New FindSearchParser()).Parse(FindFilterText, GetFindToColumnsCollection())
                 Dim findCriteria As CriteriaOperator = CustomCriteriaHelper.Create(lastParserResults, FilterCondition.Contains, IsServerMode)
